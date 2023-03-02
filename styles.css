@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  --font-family: Arial, Helvetica, sans-serif;
+  --primary-font-color: #4a4a4a;
+  --primarly-color: #5d9930;
+  --border-color: #747474;
+  --input-base-height: 24px;
+}
+
+body {
+  font-family: var(--font-family);
+  margin: 16 px;
+  color: var(--primary-font-color);
+}
+
+h1 {
+  margin-bottom: 24 px;
+}
+
+.form-item {
+  margin-bottom: 24 px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
